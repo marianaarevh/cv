@@ -9,12 +9,17 @@
 
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
+    <script src="https://kit.fontawesome.com/bc727d0392.js" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+
     <title>Mariana Arevalo.</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
+                <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre mi</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#experiencias">Experiencias</a></li>
@@ -24,27 +29,154 @@
         </nav>
     </header>
     <main>
-        <section id="sobre-mi">
+        <section id="inicio">
             <h1>Mariana.</h1>
+            <h2>a software developer</h2>
+            <img src="img/mariana.jpeg" alt="mariana arevalo.">
+        </section>
+
+        <hr>
+        
+        <section id="sobre-mi">
+            <h1>Sobre mí</h1>
+            <p>Soy estudiante de Ingeniería en Sistemas de Información, estoy cursando el séptimo semestre y tengo interés 
+                en el área de testing y ciberseguridad. Mi mayor fortaleza es la capacidad para aprender y para trabajar
+                 en equipo. Estoy en busca de ampliar mis conocimientos y crecer profesionalmente</p>
+        
+            
+        
         </section>
 
         <section id="habilidades">
             <h1>Habilidades</h1>
+            <div class="skills">
+                <h3>Hard skills</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>Github</li>
+                </ul>
+            </div>
 
+            <div class="skills">
+                <h3>Soft skills</h3>
+                <ul>
+                    <li>Autoaprendizaje</li>
+                    <li>Esfuerzo</li>
+                    <li>Empatia</li>
+                </ul>
+                
+            </div>
+
+            <div class="skills">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Español</li>
+                    <li>Ingles</li>
+                    <li>Aleman</li>
+                </ul>
+                
+            </div>
         </section>
 
         <section id="experiencias">
             <h1>Experiencias</h1>
+            <div class="contenedor-experiencias">
+            <div class="main-pic card">
+                <img src="img/investigacion.png" alt="">
+                <h4>Verano de investigación en Edo. Mexico</h4>
+            </div>
+                <div class="main-pic card">
+                    <img src="img/new-mexico.JPG" alt="">
+                    <h4>Internado en Nuevo Mexico</h4>
+                    
+                </div>
+        </div>
+
 
         </section>
 
         <section id="proyectos">
             <h1>Proyectos</h1>
+            <div class="top-proyecto">
+                <div class="proyecto">
+
+                    <div class="proyecto-img">
+                        <img src="./img/inventario.jpeg" alt="proyecto-1">
+                    </div>
+                    <div class="proyecto-info">
+                        <h4 class="proyecto-titulo">Inventario Farmacias Pitic</h4>
+                        <p class="proyecto-desc">
+                            Proyecto enfocado en Facilitar el manejo y logística </p> 
+                            <p>de productos, con control e información oportuna para los  </p>
+                            <p>requerimientos de Farmacias Pitic. 
+                        </p>
+                    </div>
+        
+                </div>
+
+                <div class="proyecto">
+
+                    <div class="proyecto-img">
+                        <img src="./img/mujer-segura.png" alt="proyecto-1">
+                    </div>
+                    <div class="proyecto-info">
+                        <h4 class="proyecto-titulo">Analisis de Datos: violencia a la mujer</h4>
+                        <p class="proyecto-desc">
+                            Proyecto enfocado en realizar un algoritmo de regresion</p> 
+                            <p>lineal para identificar y analizar el perfil de las víctimas  </p>
+                            <p>de violencia con el fin de prevenir el feminicidio. 
+                        </p>
+                    </div>
+        
+                </div>
+
+                <div class="proyecto">
+
+                    <div class="proyecto-img">
+                        <img src="./img/bayes.png" alt="proyecto-1">
+                    </div>
+                    <div class="proyecto-info">
+                        <h4 class="proyecto-titulo">Algoritmo de Bayes</h4>
+                        <p class="proyecto-desc">
+                            Proyecto enfocado en realizar un algoritmo de Bayes</p> 
+                            <p>para clasificar tumores en malignos y benignos despues de </p>
+                            <p>analizar las caracteristicas de estos.
+                        </p>
+                    </div>
+        
+                </div>
+
+            </div>
 
         </section>
     </main>
     <footer id="footer">
-
+        <div id="contacto">
+            <div class="tarjeta">
+                <h3>Contactame!</h3>
+                <p>a219222258@unison.mx</p>
+                <p>Cel: 662 329 0000</p>
+                <a href="https://www.instagram.com/marianaarevalohdz" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.github.com/marianaarevh" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+        </div>
+        <div id="frase">
+            <div class="tarjeta">
+                <h2>"El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el coraje para continuar"</h3>
+                <p> - Winston Churchill</p>
+            </div>
+        </div>
     </footer>
+
+    <button id="btn-ir-arriba" >
+        <svg viewBox="0 0 24 24">
+          <path d="m4 16 8-8 8 8"></path>
+        </svg>
+    </button>
+
 </body>
+
+
+
 </html>
