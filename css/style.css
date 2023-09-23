@@ -232,10 +232,12 @@ ul{
     height: auto;
     margin: 0;
     padding: 0;
+    background-color: var(--lightest-main-color);
 }
 
 #contacto {
-    background-image: url('../img/fondo-pequeño.png');
+    background-image: url('../img/bg.jpeg');
+    width: auto;
 }
 
 .tarjeta{
